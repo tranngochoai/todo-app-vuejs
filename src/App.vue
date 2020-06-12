@@ -3,26 +3,24 @@
     <div>
       <h3 class="text-center p-4">ToDo App</h3>
     </div>
-    <TodoList/>
-    <TodoItem/>
-    <HandleTodo/>
     <NewTodoItem/>
+    <TodoList/>
+    <HandleTodo/>
+    
   </div>
 </template>
 
 <script>
 import TodoList from './components/TodoList.vue'
-import TodoItem from './components/TodoItem.vue'
 import HandleTodo from './components/HandleTodo.vue'
-import NewTodoITem from './components/NewTodoItem.vue'
+import NewTodoItem from './components/NewTodoItem.vue'
 
 export default {
   name: 'App',
   components:  {
     TodoList,
-    TodoItem,
     HandleTodo,
-    NewTodoITem
+    NewTodoItem
   }
 }
 </script>
@@ -31,7 +29,7 @@ export default {
   #app {
     height: 500px;
     width: 400px;
-    background: rgb(207, 205, 205);
+    background:rgba(250, 244, 244, 0.62);
     margin: 0 auto
   }
 </style>
