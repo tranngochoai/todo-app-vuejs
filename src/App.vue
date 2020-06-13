@@ -30,6 +30,7 @@ export default {
     height: 500px;
     width: 400px;
     background:rgba(250, 244, 244, 0.62);
-    margin: 0 auto
+    margin: 0 auto;
+    height: auto;
   }
 </style>
